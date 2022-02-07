@@ -1,0 +1,71 @@
+==========
+References
+==========
+<global namespace>
+System
+System.Collections
+System.Web
+WebFormsChecklist
+System.Web.Optimization
+System.Web.UI
+Microsoft
+Microsoft.AspNet
+System.Web.Routing
+Microsoft.AspNet.FriendlyUrls
+System.Collections.Generic
+System.Data
+System.Web.UI.WebControls
+System.Linq
+System.Runtime
+System.Web.UI.HtmlControls
+Microsoft.AspNet.FriendlyUrls.Resolvers
+System.Web.Security
+System.Web.SessionState
+System.Reflection
+System.Runtime.CompilerServices
+System.Runtime.InteropServices
+project.all
+
+===============
+DownloadedFiles
+===============
+project.all.json
+system.web.json
+
+==============
+ProjectResults
+==============
+----------------------
+Showing results for: D:\source\MJRousos\WebFormsToBlazor\WebFormsChecklist\WebFormsChecklist\WebFormsChecklist.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net6.0
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+
+----------------------
+Showing results for: D:\source\MJRousos\WebFormsToBlazor\WebFormsChecklist\WebFormsChecklist\WebFormsChecklist.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net6.0
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+
+
+===========
+BuildErrors
+===========
+
+

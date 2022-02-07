@@ -1,0 +1,2 @@
+projectName,projectPath,solutionPath,targetFramework,referencedProjects,incompatiblePackages,totalPackages,incompatibleApis,totalApis,buildErrors,portingActions,ported,buildFailed
+WebFormsChecklist,D:\source\MJRousos\WebFormsToBlazor\WebFormsChecklist\WebFormsChecklist\WebFormsChecklist.csproj,D:\source\MJRousos\WebFormsToBlazor\WebFormsChecklist\WebFormsToBlazor.sln,net461,0,11,16,22,46,0,0,,
