@@ -1,0 +1,23 @@
+@page "/List"
+@layout Site
+@inherits WebFormsChecklist.List
+<!-- Conversion of AutoEventWireup attribute (value: "true") for Page directive not currently supported -->
+
+
+    <div>
+        <h1>@(new MarkupString(PageTitle))</h1>
+		@* The following tag is not supported: <asp:datagrid id="dgTodoList" runat="server" Width="100%" AutoGenerateColumns="False" OnItemCommand="dgTodoList_ItemCommand"> *@
+			<HeaderStyle BackColor="Gray" ForeColor="white" Font-Bold="true"></HeaderStyle>
+			<ItemStyle BackColor="white"></ItemStyle>
+			<AlternatingItemStyle BackColor="Beige"></AlternatingItemStyle>
+			<Columns>
+				@* The following tag is not supported: <asp:BoundColumn Visible="false" DataField="Id"> *@@* </asp:BoundColumn> *@
+				@* The following tag is not supported: <asp:BoundColumn HeaderText="Description" DataField="Description"> *@@* </asp:BoundColumn> *@
+				@* The following tag is not supported: <asp:BoundColumn HeaderText="Completed" DataField="CompletedTime"> *@@* </asp:BoundColumn> *@
+				@* The following tag is not supported: <asp:ButtonColumn HeaderText="Complete" Text="Complete" ButtonType="PushButton" CommandName="Complete"> *@@* </asp:ButtonColumn> *@
+			</Columns>
+		@* </asp:datagrid> *@
+        <br>
+        Add new item <input id="txtNewItem">
+        <button id="btnAddItem" @onclick="AddItem">Add</button>
+    </div>

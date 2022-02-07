@@ -1,0 +1,46 @@
+@namespace Replace_this_with_code_behind_namespace
+@inherits LayoutComponentBase
+<!-- Conversion of AutoEventWireup attribute (value: "true") for Master directive not currently supported -->
+<!-- Conversion of Inherits attribute (value: "WebFormsChecklist.SiteMaster") for Master directive not currently supported -->
+
+<!DOCTYPE html>
+
+
+
+
+    <form runat="server">
+        @* The following tag is not supported: <asp:ScriptManager runat="server"> *@
+            
+        @* </asp:ScriptManager> *@
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/">Home</a></li>
+                        <li><a runat="server" href="~/About">About</a></li>
+                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/List">Todo list</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            @Body
+            <hr>
+            <footer>
+                <p>&copy; @(DateTime.Now.Year) - My ASP.NET Application</p>
+            </footer>
+        </div>
+
+    </form>
+
+

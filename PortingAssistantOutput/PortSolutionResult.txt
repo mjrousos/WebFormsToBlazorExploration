@@ -1,0 +1,69 @@
+==========
+References
+==========
+<global namespace>
+System
+System.Collections
+Microsoft
+Microsoft.AspNetCore
+WebFormsChecklist
+Microsoft.AspNet
+Microsoft.AspNet.FriendlyUrls
+Microsoft.AspNet.FriendlyUrls.Resolvers
+System.Web
+System.Collections.Generic
+System.Data
+System.Linq
+Microsoft.Extensions
+Microsoft.Extensions.Hosting
+Microsoft.AspNetCore.Hosting
+Microsoft.Extensions.Configuration
+Microsoft.AspNetCore.Builder
+Microsoft.Extensions.DependencyInjection
+Microsoft.AspNetCore.Components
+System.Reflection
+project.all
+
+===============
+DownloadedFiles
+===============
+project.all.json
+system.web.json
+
+==============
+ProjectResults
+==============
+----------------------
+Showing results for: D:\source\MJRousos\WebFormsToBlazor\PortingAssistantOutput\WebFormsChecklist\WebFormsChecklist.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net6.0
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+
+----------------------
+Showing results for: D:\source\MJRousos\WebFormsToBlazor\PortingAssistantOutput\WebFormsChecklist\WebFormsChecklist.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net6.0
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+
+
+===========
+BuildErrors
+===========
+
+
