@@ -1,5 +1,8 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="List.aspx.cs" Inherits="WebFormsChecklist.List" %>
 
+<%@ Register Src="~/MyControl.ascx" TagPrefix="uc1" TagName="MyControl" %>
+
+
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div>
         <h1><%=PageTitle%></h1>
@@ -22,4 +25,7 @@
         Add new item <asp:TextBox ID="txtNewItem" runat="server"></asp:TextBox>
         <asp:Button ID="btnAddItem" runat="server" Text="Add" OnClick="AddItem" />
     </div>
+	<div>
+        <uc1:MyControl runat="server" id="MyControl" />
+	</div>
 </asp:Content>
