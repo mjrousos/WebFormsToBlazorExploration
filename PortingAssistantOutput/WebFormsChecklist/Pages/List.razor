@@ -3,6 +3,9 @@
 @inherits WebFormsChecklist.List
 <!-- Conversion of AutoEventWireup attribute (value: "true") for Page directive not currently supported -->
 
+@using WebFormsChecklist
+
+
 
     <div>
         <h1>@(new MarkupString(PageTitle))</h1>
@@ -21,3 +24,6 @@
         Add new item <input id="txtNewItem">
         <button id="btnAddItem" @onclick="AddItem">Add</button>
     </div>
+	<div>
+        <MyControl></MyControl>
+	</div>
